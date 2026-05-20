@@ -15,9 +15,6 @@ export function Header() {
         setOpenModal(!openModal);
     }
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,7 +27,6 @@ export function Header() {
     .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert("E-mail enviado com sucesso!");
-        setName(''); setEmail(''); setMessage('');
       }, (err) => {
         console.log('FAILED...', err);
         alert("Erro ao enviar seu email.Tente novamente")
@@ -71,7 +67,7 @@ export function Header() {
                                 <input type="text" name="enterprise" placeholder="Sua Empresa" required/>
                                 <input type="email" name="email" placeholder="Email" required/>   
                                 <input type="tel" name="tel" placeholder="Telefone" required/>   
-                                <textarea name="message"placeholder="Fale um pouco da sua necessidade" required/>   
+                                <textarea name="message" placeholder="Fale um pouco da sua necessidade" required/>   
                             <div>
                                 <button className={styles.contact} onClick={togglePopup}>fechar</button>
                                 <button className={styles.contact} type="submit">enviar</button>
