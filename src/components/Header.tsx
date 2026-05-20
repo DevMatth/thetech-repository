@@ -22,12 +22,6 @@ export function Header() {
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const templateParams = {
-      from_name: name,
-      message: message,
-      email: email
-    };
-
     emailjs.sendForm(
         "service_thetech_email", 
         "template_thetech_contact", 
