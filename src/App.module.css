@@ -1,0 +1,14 @@
+.wrapper {
+    max-width: 100%;
+    
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

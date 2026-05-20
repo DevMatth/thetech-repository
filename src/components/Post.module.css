@@ -1,0 +1,14 @@
+.Post {
+    margin-top: 5rem;
+    
+}
+
+.Post img {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+}
+
+.Post h1 {
+    color: var(--gray-300);
+}

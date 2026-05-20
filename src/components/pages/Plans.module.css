@@ -1,0 +1,131 @@
+.container {
+    margin: 13rem 0 ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+
+.plans {
+    margin-top: 2rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 3rem;
+}
+
+ul {
+    color: var(--gray-300);
+}
+
+.plans h1 {
+    font-size: 1.75rem;
+    margin-bottom: -16px;
+}
+
+.plans strong {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.essential {
+    background-color: var(--gray-500);
+    height: 30rem;
+    width: 22rem;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.smart {
+    background-color: var(--gray-500);
+    height: 30rem;
+    width: 22rem;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smart .hire {
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 2.5rem;
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+
+    background-color: var(--gray-500);
+    cursor: pointer;
+}
+
+
+.hire {
+    margin-top: 7.2rem;
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 2.5rem;
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+
+    background-color: var(--gray-500);
+    cursor: pointer;
+}
+.hire:hover {
+    background: var(--blue-100);
+    border: 2px solid var(--blue-100);;
+    transition: 1s;
+}
+
+
+
+.professional {
+    background-color: var(--gray-500);
+    height: 30rem;
+    width: 22rem;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid var(--blue-100);
+}
+
+.professional .hire {
+    margin-top: 5rem;
+    width: 12rem;
+    height: 2.5rem;
+    border: 2px solid var(--blue-100);
+    border-radius: 8px;
+
+    background-color: var(--blue-100);
+    cursor: pointer;
+}
+.professional .hire:hover {
+    background: var(--gray-300);
+    border: 2px solid var(--gray-300);
+    transition: 1s;
+}
+
+.recomended {
+    margin-top: -0.65rem;
+    background: var(--blue-100);
+    color: var(--white);
+    width: 6rem;
+    font-size: 13px;
+    border-radius: 10px;
+    text-align: center;
+}
