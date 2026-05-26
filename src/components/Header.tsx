@@ -9,14 +9,12 @@ import emailjs from "@emailjs/browser";
 
 export function Header() {
 
-       const [openModal, setOpenModal] = useState(false);
-
+    const [openModal, setOpenModal] = useState(false);
     const togglePopup = () => {
         setOpenModal(!openModal);
     }
 
-
-  const sendEmail = (e: React.FormEvent) => {
+    const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
     emailjs.sendForm(
@@ -31,14 +29,12 @@ export function Header() {
         console.log('FAILED...', err);
         alert("Erro ao enviar seu email.Tente novamente")
       });
-  };
-
+    };
 
     return (
-
         <header className={styles.header}>
             <img src={logoThetech} alt="logo thetech"/>
-            <nav>
+            <nav className={styles.options}>
                 <a href="#services">
                     Serviços
                 </a>
@@ -54,39 +50,34 @@ export function Header() {
                 <button className={styles.contact} onClick={togglePopup}>
                     Fale Conosco
                 </button>
-            </nav>
-            <div className={styles.popup}>
-            {openModal && (
-                <div className={styles.popupOverlay}>
-                    <div className={styles.popupContent}>
-                        <div className={styles.formContainer}>
-                           
-                            <span>Contato</span>
-                            <form onSubmit={sendEmail} className={styles.formPopup} action="submit">
-                                <input type="text" name="name" placeholder="Seu Nome" required/>
-                                <input type="text" name="enterprise" placeholder="Sua Empresa" required/>
-                                <input type="email" name="email" placeholder="Email" required/>   
-                                <input type="tel" name="tel" placeholder="Telefone" required/>   
-                                <textarea name="message" placeholder="Fale um pouco da sua necessidade" required/>   
-                            <div>
-                                <button className={styles.contact} onClick={togglePopup}>fechar</button>
-                                <button className={styles.contact} type="submit">enviar</button>
+                <div className={styles.popup}>
+                {openModal && (
+                    <div className={styles.popupOverlay}>
+                        <div className={styles.popupContent}>
+                            <div className={styles.formContainer}>
+                                <span>Contato</span>
+                                <form onSubmit={sendEmail} className={styles.formPopup} action="submit">
+                                    <input type="text" name="name" placeholder="Seu Nome" required/>
+                                    <input type="text" name="enterprise" placeholder="Sua Empresa" required/>
+                                    <input type="email" name="email" placeholder="Email" required/>   
+                                    <input type="tel" name="tel" placeholder="Telefone" required/>   
+                                    <textarea name="message" placeholder="Fale um pouco da sua necessidade" required/>   
+                                <div>
+                                    <button className={styles.contact} onClick={togglePopup}>fechar</button>
+                                    <button className={styles.contact} type="submit">enviar</button>
+                                </div>
+                                </form>
                             </div>
-                            </form>
-                            
-                        </div>
-                        <div className={styles.infoPopup}>
-                            <strong> <FiPhoneCall size={40} />Telefone:<br/>11 99902-4019</strong>
-                            <strong> <SlEnvolopeLetter size={40} />Email:<br/>thetech.sm.it@gmail.com</strong>
-                            <strong> <LuMapPin size={40} />Email:<br/>São Paulo, SP</strong>
-                            
-                        
+                            <div className={styles.infoPopup}>
+                                <strong> <FiPhoneCall size={40} />Telefone:<br/>11 99902-4019</strong>
+                                <strong> <SlEnvolopeLetter size={40} />Email:<br/>thetech.sm.it@gmail.com</strong>
+                                <strong> <LuMapPin size={40} />Email:<br/>São Paulo, SP</strong>
+                            </div>
                         </div>
                     </div>
+                )}
                 </div>
-            )}
-            </div>
-            
+            </nav>
         </header>
         
     )

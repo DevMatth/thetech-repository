@@ -3,9 +3,9 @@
     
 }
 
-.Post img {
-    width: auto;
-    height: 500px;
+.Post img{
+    width: 60rem;
+    height: 30rem;
     object-fit: cover;
 }
 

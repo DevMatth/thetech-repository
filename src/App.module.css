@@ -1,14 +1,21 @@
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
 .wrapper {
-    max-width: 100%;
+    max-width: 120rem;
     
     display: grid;
     grid-template-columns: 700px 1fr;
-    gap: 2rem;
+    gap: 3rem;
     align-items: flex-start;
 }
 
-.app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }

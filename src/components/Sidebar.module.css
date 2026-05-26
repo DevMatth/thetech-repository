@@ -1,6 +1,6 @@
 .sidebar {
     margin: 5rem 2rem 0 5rem ;
-    padding: auto;
+   
 
 }
 
@@ -18,11 +18,10 @@
     box-sizing: border-box;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    padding: 0 18px ;
-    width: 17rem;
-    height: 2rem;
-
+    padding: 0 18px;
+    width: 18rem;
+    height: 2.2rem;
+    gap: 1rem;
     border-radius: 8px;
 }
 
