@@ -1,6 +1,8 @@
 import styles from "./Plans.module.css"
 
+
 export function Plans() {
+
     return (
         
         <div className={styles.container}>

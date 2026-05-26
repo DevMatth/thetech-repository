@@ -12,7 +12,7 @@ import styles from "./App.module.css"
 export function App() {
     
     return (
-        <div >
+        
             <div className={styles.app}>
                 <Header />
 
@@ -23,7 +23,7 @@ export function App() {
                 </div>
                     <Plans />
                     <Services />
-            </div>
+
         </div>
     )
 }

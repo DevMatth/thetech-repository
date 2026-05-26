@@ -12,3 +12,10 @@
 .Post h1 {
     color: var(--gray-300);
 }
+
+@media (max-width: 700px) { 
+    .Post img {
+        width: 55rem;
+
+    }
+}

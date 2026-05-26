@@ -129,3 +129,9 @@ ul {
     border-radius: 10px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .plans {
+        grid-template-columns: 1fr;
+    }
+}
