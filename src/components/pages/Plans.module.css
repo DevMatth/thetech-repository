@@ -133,9 +133,6 @@ ul {
 
 @media (max-width: 750px) {
 
-   
-
-
     .plans {
         grid-template-columns: 1fr;
     }

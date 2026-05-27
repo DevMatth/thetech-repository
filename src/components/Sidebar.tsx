@@ -4,9 +4,9 @@ import styles from "./Sidebar.module.css"
 
 export function Sidebar() {
     return (
-        <aside className={styles.sidebar}>
+        <aside className={styles.sidebar} id="top">
 
-                <div className={styles.container}>
+                <div className={styles.container} >
                     <strong> <IoShieldOutline size={19} />Suporte de TI para empresas</strong>
                     <h1>Sua empresa protegida <br/>
                     com manutenção <br/>
