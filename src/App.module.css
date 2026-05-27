@@ -13,7 +13,7 @@
 
 @media (max-width: 750px) {
     html {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .app {
         grid-template-columns: 1fr;

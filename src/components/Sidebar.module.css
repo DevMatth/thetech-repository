@@ -1,5 +1,5 @@
 .sidebar {
-    margin: 5rem 2rem 0 5rem;
+    margin: 10rem 2rem 0 5rem;
     width: 40rem;
 
 }
@@ -41,45 +41,30 @@ p {
     
 }
 
-.select .planos {
-    background-color: transparent;
+.select a {
+    background: transparent;
     color: var(--blue-100);
     font-weight: bold;
     margin-left: 0;
+    text-decoration: none;
+    border-radius: 14px;
+    padding: 1.25rem;
 
     border: 2px solid var(--blue-100);
 
     transition: background-color 0.4s, color 0.4s;
 }
 
-.select .planos:hover {
+.select a:hover {
     background: var(--blue-100);
     color: var(--white)
 }
 
-.select a {
-    text-decoration: none;
-    background: transparent;
-
-    margin-left: 1.5rem;
-    border-radius: 14px;
-    padding: 1.25rem;
-    color: var(--gray-300);
-    font-weight: bold;
-    border: 2px solid var(--gray-300);
-
-    transition: background-color 0.4s, color 0.4s;
-}
-
-.select a:hover {
-    background: var(--gray-300);
-    color: var(--white)
-    
-}
 
 @media (max-width: 750px) {
     .sidebar {
-        width: 35rem;
+        width: 28rem;
+        margin-left: 2rem;
     }
     
     h1 {

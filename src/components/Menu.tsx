@@ -44,10 +44,10 @@ export function Menu() {
                     <div className={styles.list}>
                         <ul className={styles.listItems}>
                             <li>
-                                Serviços
+                                <a href="#services">Serviços</a>
                             </li>
                             <li>
-                                Planos
+                                <a href="#plans">Planos</a>
                             </li>
                             <li>
                                 Diferenciais    
@@ -73,8 +73,8 @@ export function Menu() {
                                     <input type="tel" name="tel" placeholder="Telefone" required/>   
                                     <textarea name="message" placeholder="Fale um pouco da sua necessidade" required/>   
                                 <div>
-                                    <button className={styles.contact} onClick={togglePopup}>fechar</button>
-                                    <button className={styles.contact} type="submit">enviar</button>
+                                    <button className={styles.buttonClose} onClick={togglePopup}>fechar</button>
+                                    <button className={styles.buttonSend} type="submit">enviar</button>
                                 </div>
                                 </form>
                             </div>

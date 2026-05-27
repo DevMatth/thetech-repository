@@ -131,7 +131,7 @@ ul {
     text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1180px) {
 
     .plans {
         grid-template-columns: 1fr;

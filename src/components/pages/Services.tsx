@@ -5,7 +5,7 @@ export function Services() {
         <div className={styles.infoServices}>
             <span id="services">Serviços</span>
             <h1>Soluções completas de TI para sua empresa</h1>
-            <p>Da manutenção preventiva ao suporte emergencial, cuidamos de toda sua infraestrutura tecnológica.</p>
+            <p>Da manutenção preventiva ao suporte emergencial, <br/>cuidamos de toda sua infraestrutura tecnológica.</p>
 
             <div className={styles.container}>
                 <div className={styles.box}>
