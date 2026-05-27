@@ -1,5 +1,6 @@
 .sidebar {
-    margin: 5rem 2rem 0 5rem ;
+    margin: 5rem 2rem 0 5rem;
+    width: 40rem;
 
 }
 
@@ -76,14 +77,13 @@ p {
     
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
+    .sidebar {
+        width: 35rem;
+    }
     
     h1 {
         font-size: medium;
     }
 
-    .sidebar {
-        
-        width: 50%;
-    }
 }

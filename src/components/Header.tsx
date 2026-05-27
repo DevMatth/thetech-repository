@@ -71,7 +71,7 @@ export function Header() {
                             <div className={styles.infoPopup}>
                                 <strong> <FiPhoneCall size={40} />Telefone:<br/>11 99902-4019</strong>
                                 <strong> <SlEnvolopeLetter size={40} />Email:<br/>thetech.sm.it@gmail.com</strong>
-                                <strong> <LuMapPin size={40} />Email:<br/>São Paulo, SP</strong>
+                                <strong> <LuMapPin size={40} />Localização:<br/>São Paulo, SP</strong>
                             </div>
                         </div>
                     </div>

@@ -18,9 +18,7 @@ export function Sidebar() {
                     <a className={styles.planos} href="#planos">
                         Ver Planos
                     </a>
-                    <a href="">
-                        Solicitar análise gratuita
-                    </a>
+                    
                 </div>
 
         </aside>

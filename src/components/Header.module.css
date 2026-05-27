@@ -3,7 +3,11 @@
     height: 5rem;
     width: 100%;
     padding: 0 10rem ;
-    
+
+    top: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +30,7 @@ button {
     padding: 0.75rem;
     color: var(--white);
     border: 0;
+    cursor: pointer;
 
     transition: background-color 0.2s, color 0.2s;
 }
@@ -34,8 +39,6 @@ img {
     width: 12rem;
 
 }
-
-
 
 .popupOverlay {
   position: fixed;
@@ -103,4 +106,10 @@ img {
     display: flex;
     padding-bottom: 2rem;
     gap: 8px;
+}
+
+@media (max-width: 750px) {
+    .header {
+        padding: 0;
+    }
 }
