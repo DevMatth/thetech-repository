@@ -66,6 +66,15 @@
     gap: 8px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--gray-300)
+}
+
+.infoPopup .whatsapp {
+    color:#25D366;
+}
+
 .buttonSend {
     background: #006633;
     font-size: 1rem;
@@ -101,12 +110,10 @@
     .popupContent {
         display: flex;
         flex-direction: column;
+        max-height: 52rem;
     }
 
-    
-
 }
-
 
 .icon {
     position: absolute;
@@ -224,10 +231,4 @@
 .menuClose {
     display: none;
     width: 0px;
-}
-
-
-a {
-    text-decoration: none;
-    color: var(--gray-300)
 }

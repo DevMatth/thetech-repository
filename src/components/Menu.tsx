@@ -5,6 +5,7 @@ import { LuMapPin } from "react-icons/lu";
 import { useState } from "react"
 import emailjs from "@emailjs/browser";
 import styles from "./Menu.module.css"
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Menu() {
 
@@ -80,8 +81,14 @@ export function Menu() {
                             </div>
                             <div className={styles.infoPopup}>
                                 <strong> <FiPhoneCall size={40} />Telefone:<br/>11 99902-4019</strong>
+                                <a href="https://wa.me/5511999024019">
+                                    <strong >
+                                    <FaWhatsapp size={45} className={styles.whatsapp}/>
+                                    Whatsapp:<br/>11 99902-4019</strong>
+                                </a>
                                 <strong> <SlEnvolopeLetter size={40} />Email:<br/>thetech.sm.it@gmail.com</strong>
                                 <strong> <LuMapPin size={40} />Localização:<br/>São Paulo, SP</strong>
+                                
                             </div>
                         </div>
                     </div>
