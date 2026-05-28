@@ -63,7 +63,7 @@ p {
 
 @media (max-width: 750px) {
     .sidebar {
-        width: 28rem;
+        width: auto;
         margin-left: 2rem;
     }
     

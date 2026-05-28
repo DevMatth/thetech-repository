@@ -38,7 +38,7 @@ ul {
 
 .essential {
     background-color: var(--gray-500);
-    height: 30rem;
+    height: 25rem;
     width: 22rem;
     
     border-radius: 10px;
@@ -49,7 +49,7 @@ ul {
 }
 .smart {
     background-color: var(--gray-500);
-    height: 30rem;
+    height: 25rem;
     width: 22rem;
     
     border-radius: 10px;
@@ -93,7 +93,7 @@ ul {
 
 .professional {
     background-color: var(--gray-500);
-    height: 30rem;
+    height: 25rem;
     width: 22rem;
     
     border-radius: 10px;

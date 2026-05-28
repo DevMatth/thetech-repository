@@ -12,7 +12,7 @@ export function Plans() {
             <div className={styles.plans}>
                 <div className={styles.essential}>
                     <h1>Plano Essential</h1>
-                    <p>Ideal para microemresas</p>
+                    <p>Ideal para microempresas</p>
                     <strong>R$300,00</strong>
                     <ul>
                         <li>Suporte a computadores e impressoras</li>
@@ -22,7 +22,7 @@ export function Plans() {
                         <li>Backup local ou em nuvem</li>
                     </ul>
 
-                    <button className={styles.hire}>Contratar</button>
+                    {/*<button className={styles.hire}>Contratar</button>*/}
                 </div>
                 <div className={styles.professional}>
                     <p className={styles.recomended}>Mais popular</p>
@@ -38,7 +38,7 @@ export function Plans() {
                         <li>Manutenção preventiva</li>
                     </ul>
 
-                    <button className={styles.hire}>Contratar</button>
+                    {/*<button className={styles.hire}>Contratar</button>*/}
                 </div>
                 <div className={styles.smart}>
                     <h1>Plano Smart IT</h1>
@@ -56,7 +56,7 @@ export function Plans() {
                         <li>Suporte a novos funcionários</li>
                     </ul>
 
-                    <button className={styles.hire}>Contratar</button>
+                    {/*<button className={styles.hire}>Contratar</button>*/}
                 </div>
         </div>
         </div>

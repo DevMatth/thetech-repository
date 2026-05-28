@@ -43,16 +43,16 @@ export function Menu() {
                 <div className={active ? styles.menuOpen : styles.menuClose}>    
                     <div className={styles.list}>
                         <ul className={styles.listItems}>
-                            <li>
+                            <li onClick={toggleMode}>
                                 <a href="#services">Serviços</a>
                             </li>
-                            <li>
+                            <li onClick={toggleMode}>
                                 <a href="#plans">Planos</a>
                             </li>
-                            <li>
+                            <li onClick={toggleMode}>
                                 Diferenciais    
                             </li>
-                            <li>
+                            <li onClick={toggleMode}>
                                 Contato
                             </li>
                             <button className={styles.buttonContact} onClick={togglePopup}>
