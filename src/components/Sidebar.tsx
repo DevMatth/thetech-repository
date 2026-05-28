@@ -15,7 +15,7 @@ export function Sidebar() {
                     acessíveis. Prevenção, monitoramento e suporte técnico especializado para PMEs.</p>
                 </div>
                 <div className={styles.select}>
-                    <a  href="#planos">
+                    <a  href="#plans">
                         Ver Planos
                     </a>
                     
