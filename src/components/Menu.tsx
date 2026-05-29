@@ -53,9 +53,7 @@ export function Menu() {
                             <li onClick={toggleMode}>
                                 Diferenciais    
                             </li>
-                            <li onClick={toggleMode}>
-                                Contato
-                            </li>
+                            
                             <button className={styles.buttonContact} onClick={togglePopup}>
                                 Fale Conosco
                             </button>
@@ -82,8 +80,8 @@ export function Menu() {
                             <div className={styles.infoPopup}>
                                 <strong> <FiPhoneCall size={40} />Telefone:<br/>11 99902-4019</strong>
                                 <a href="https://wa.me/5511999024019">
-                                    <strong >
-                                    <FaWhatsapp size={45} className={styles.whatsapp}/>
+                                    <strong className={styles.whatsapp}>
+                                    <FaWhatsapp size={45} />
                                     Whatsapp:<br/>11 99902-4019</strong>
                                 </a>
                                 <strong> <SlEnvolopeLetter size={40} />Email:<br/>thetech.sm.it@gmail.com</strong>

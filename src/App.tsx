@@ -6,6 +6,7 @@ import { Services } from "./components/pages/Services";
 import './global.css'
 
 import styles from "./App.module.css"
+import { Footer } from "./components/pages/Footer";
 
 
 export function App() {
@@ -18,8 +19,9 @@ export function App() {
             <Sidebar /> 
                 
             
-            <Plans />
             <Services />
+            <Plans />
+            <Footer />
         </div>
      
     )

@@ -1,5 +1,5 @@
 .container {
-    margin: 13rem 0 ;
+    margin: 13rem 0 5rem;
 
     display: flex;
     flex-direction: column;
@@ -115,6 +115,7 @@ ul {
     background-color: var(--blue-100);
     cursor: pointer;
 }
+
 .professional .hire:hover {
     background: var(--gray-300);
     border: 2px solid var(--gray-300);

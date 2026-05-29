@@ -1,0 +1,56 @@
+.container {
+    background: var(--gray-500);
+    height: 20rem;
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.instagram {
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
+
+.instagram:hover {
+    color: #DD2A7B;   
+    transition: 1s;
+}
+
+.whatsapp {
+    color: var(--gray-300);
+    margin-left: 1rem;
+}
+
+.whatsapp:hover {
+    color:#25D366;
+    transition: 1s;
+}
+
+p {
+    font-weight: 600;
+}
+
+.services {
+    margin-top: 2rem;
+}
+
+.list li {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+strong {
+    color: var(--gray-300);
+}
+
+.contact strong {
+    gap: 8px;
+}
