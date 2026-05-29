@@ -5,8 +5,8 @@ export function Plans() {
 
     return (
         
-        <div className={styles.container}>
-                <span id="plans">Planos</span>
+        <div className={styles.container} id="plans">
+                <span >Planos</span>
                 <h1>Escolha o plano ideal para sua empresa</h1>
                 <p>Planos flexíveis que acompanham o crescimento do seu negócio.<br /> Sem surpresas, sem taxas ocultas.</p>
             <div className={styles.plans}>

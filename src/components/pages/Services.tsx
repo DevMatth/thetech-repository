@@ -2,8 +2,8 @@ import styles from "./Services.module.css"
 
 export function Services() {
     return (
-        <div className={styles.infoServices}>
-            <span id="services">Serviços</span>
+        <div className={styles.infoServices} id="services">
+            <span >Serviços</span>
             <h1>Soluções completas de TI para sua empresa</h1>
             <p>Da manutenção preventiva ao suporte emergencial, <br/>cuidamos de toda sua infraestrutura tecnológica.</p>
 

@@ -1,10 +1,12 @@
 .container {
-    margin: 13rem 0 5rem;
+    margin: 10rem 0 15rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    scroll-margin-top: 10rem;
 }
 
 span {
@@ -23,11 +25,15 @@ span {
 
 ul {
     color: var(--gray-300);
+    list-style: none;
+    
 }
 
 .plans h1 {
     font-size: 1.75rem;
     margin-bottom: -16px;
+
+    
 }
 
 .plans strong {
