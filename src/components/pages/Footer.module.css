@@ -7,6 +7,9 @@
     gap: 10rem;
     padding-top: 3rem;
 }
+.redes {
+    text-align: center;
+}
 
 .instagram {
     color: var(--gray-300);
@@ -33,7 +36,9 @@ p {
     font-weight: 600;
 }
 
-
+.services {
+    text-align: center;
+}
 
 .list li {
     list-style: none;
@@ -43,7 +48,7 @@ p {
 .contact {
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
 }
 
 strong {
@@ -57,13 +62,14 @@ strong {
 @media (max-width: 970px) {
     
     .container {
-        gap: 1rem;
+        gap: 1.5rem;
         height: auto;
         display: flex;
         align-content: center;
         font-size: 0.55rem;
         
         padding-bottom: 1rem;
+        
     }
     
 }
