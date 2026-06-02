@@ -1,21 +1,36 @@
 .app {
-    
     width: 100%;
     display: flex;
     flex-direction: column;
-
-    max-width: 120rem;
     
     margin-top: 5rem;
     
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 45rem 1fr;
+    gap: 3rem;
+    
+}
+
 
 @media (max-width: 750px) {
+
+    
     html {
         font-size: 0.8rem;
     }
-    .app {
+    
+   
+
+    .container {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 1450px) {
+    .post {
+        display: none;
+    }
+} 

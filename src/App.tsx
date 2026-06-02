@@ -6,7 +6,8 @@ import { Services } from "./components/pages/Services";
 import './global.css'
 
 import styles from "./App.module.css"
-import { Footer } from "./components/pages/Footer";
+import { Footer } from "./components/Footer";
+import { Post } from "./components/Post";
 
 
 export function App() {
@@ -15,8 +16,13 @@ export function App() {
         <div className={styles.app}>
             <Header />
 
-            
+            <div className={styles.container}>
             <Sidebar /> 
+            <div className={styles.post}>
+            <Post />
+
+            </div>
+            </div>
                 
             
             <Services />
